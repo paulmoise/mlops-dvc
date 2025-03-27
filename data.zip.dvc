@@ -1,0 +1,11 @@
+md5: 0bda9ef8f948dddbdb1c9bc403a245d3
+frozen: true
+deps:
+- checksum: '"445e893f0ae23ca2dfc70509831c5722977e0b44ffe3bb7886f976ce208625dd"'
+  hash: md5
+  path: https://github.com/shuuchuu/dataset-landscape/archive/refs/heads/main.zip
+outs:
+- md5: 99f5a737b9684d678743cbcdae71b85b
+  size: 363491561
+  hash: md5
+  path: data.zip
