@@ -5,3 +5,9 @@ stages:
     - data.zip
     outs:
     - dataset-landscape-main
+  train:
+    cmd: uv run compression
+    deps:
+    - dataset-landscape-main/seg_train
+    outs:
+    - landscape_classifier.keras
