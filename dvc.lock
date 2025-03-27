@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  decompress:
+    cmd: unzip data.zip
+    deps:
+    - path: data.zip
+      hash: md5
+      md5: 99f5a737b9684d678743cbcdae71b85b
+      size: 363491561
+    outs:
+    - path: dataset-landscape-main
+      hash: md5
+      md5: b0d0f33bc9f8bda75a16cd40a737c6d8.dir
+      size: 368859672
+      nfiles: 24336
