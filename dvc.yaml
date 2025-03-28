@@ -9,5 +9,13 @@ stages:
     cmd: uv run compression
     deps:
     - dataset-landscape-main/seg_train
+    params:
+    - train_dir
+    - image_size
+    - learning_rate
+    - batch_size
+    - epochs
+    - model_path
+    - compressed_model_path
     outs:
     - landscape_classifier.keras

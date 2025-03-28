@@ -1,6 +1,9 @@
-from compression.train import train
-def main() -> None:
-    print("Hello from compression!")
+from dvc.api import params_show
 
-    train("dataset-landscape-main/seg_train", (150, 150), 0.0001)
+from compression.train import train
+
+def main() -> None:
+    args = params_show(stages=["train"])
+    print(args)
+    train(**args)
 
