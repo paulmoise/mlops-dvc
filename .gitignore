@@ -1,3 +1,4 @@
 /data.zip
 /dataset-landscape-main
 .venv
+/landscape_classifier.keras

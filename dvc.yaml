@@ -16,6 +16,5 @@ stages:
     - batch_size
     - epochs
     - model_path
-    - compressed_model_path
     outs:
     - landscape_classifier.keras
